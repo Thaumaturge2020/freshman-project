@@ -1,0 +1,23 @@
+<body>
+<table border="1">
+	<thead>
+	<tr>
+		<th>ID</th>
+		<th>name<th>
+		<th>mobile<th>
+		<th>email<th>
+	</tr>
+	</thead>
+	<tbody>
+	{% for item in n2%}
+	<tr>
+		<td>{{item.id}}</td>
+		<td>{{item.name}}</td>
+		<td>{{item.mobile}}</td>
+		<td>{{item.email}}</td>
+	</tr>
+	{% endfor %}
+	</tbody>
+</table>
+</body>
+</html>
